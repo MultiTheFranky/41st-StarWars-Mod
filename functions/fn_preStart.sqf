@@ -1,0 +1,1 @@
+uiNamespace setVariable ["fr4_vueltaMenu",false];
