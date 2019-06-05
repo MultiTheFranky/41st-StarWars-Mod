@@ -1,0 +1,1 @@
+uiNamespace setVariable ["st41_vueltaMenu",false];

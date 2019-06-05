@@ -1,0 +1,21 @@
+#include "basicdefines_A3.hpp"
+class DefaultEventhandlers;
+#include "CfgPatches.hpp"
+#include "CfgFunctions.hpp"
+#include "Extended_FiredBIS_EventHandlers.hpp"
+#include "Extended_PreInit_EventHandlers.hpp"
+#include "CfgMovesBasic.hpp"
+#include "CfgGesturesMale.hpp"
+#include "CfgMovesMaleSdr.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWorlds.hpp"
+#include "CfgMusic.hpp"
+#include "CfgSounds.hpp"
+#include "CfgCloudlets.hpp"
+#include "RscFull.hpp"
+#include "Rsc.hpp"
+
+
