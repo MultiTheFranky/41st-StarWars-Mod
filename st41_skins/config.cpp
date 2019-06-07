@@ -1,6 +1,6 @@
 class CfgPatches {
 	class st41_skins {
-		name = "st41 - Skins Mod";
+		name = "41st - Skins Mod";
 		author = "Zackyr";
 		url = "http://41st.es";
 		units[] = {"st41_Madfly1_p1","st41_ARCLTE_p1"};
@@ -8,15 +8,15 @@ class CfgPatches {
 		weapons[] = {"st41_Lion_Vest","st41_Rex_Vest","st41_Space_Vest","st41_Sergeant_Vest","st41_Drakon_Vest","st41_Zackyr_Vest","st41_Careniar_Vest",
 		,"st41_Dragonhaze_Vest","st41_Bit_Vest","st41_Eco_Vest","st41_ARC_Vest","st41_ARC_Fives_Vest","st41_ARC_Fives_Vest1","st41_ARC_Madfly_Vest",
 		"st41_ARC_Madfly_Vest1","st41_ARC_Ironback_Vest","st41_ARC_Ironback_Vest1","st41_ARC_Zackyr_Vest","st41_ARC_Echo_Vest","st41_ARCDOC_Vest",
-		"st41_CM_Vest","st41_DOC_Vest","st41_ARF_Helmet","Rash_Helmet","Nova_Helmet","Bit_Helmet","Rash_Helmet2","Lion_Helmet","Lion_Helmet2",
-		"Fives_Helmet","Fives_Helmet2","Fives_Helmet3","Spachito_Helmet3","NecroLd_Helmet","NecroLd_Helmet1","Rex_Helmet","Rex_Helmet1","Rex_Helmet2",
-		"Rex_Helmet3","Madfly_Helmet2","Madfly_Helmet2","Maqui_Helmet","Dragonhaze_Helmet","Echo_Helmet","Echo_Helmet1","Echo_Helmet2","Echo_Helmet3",
-		"Drakon_Helmet","Drakon_Helmet2","Ironback_Helmet","Ironback_Helmet1","Ironback_Helmet2","Flichmon_Helmet","Stormbringer_Helmet","Stormbringer_Helmet2",
-		"Zackyr_Helmet1","Zackyr_Helmet2","Zackyr_Helmet3","Zeta_Helmet1","Zass_Helmet","Zass_Helmet1","Zass_Helmet2","Zev_Helmet","Zev_Helmet4","Zev_Helmet1",
-		"Ranger_Helmet","Ranger_Helmet2","Alkenh_Helmet","Kelmet_Helmet1","Chisco_Helmet","Bit_Helmet2","Careniar_Helmet","Frostmure_Helmet","st41_Sergeant_Helmet",
+		"st41_CM_Vest","st41_DOC_Vest","st41_ARF_Helmet","st41_Rash_Helmet","st41_Nova_Helmet","st41_Bit_Helmet","st41_Rash_Helmet2","st41_Lion_Helmet","st41_Lion_Helmet2",
+		"st41_Fives_Helmet","st41_Fives_Helmet2","st41_Fives_Helmet3","st41_Spachito_Helmet3","st41_NecroLd_Helmet","st41_NecroLd_Helmet1","st41_Rex_Helmet","st41_Rex_Helmet1","st41_Rex_Helmet2",
+		"st41_Rex_Helmet3","st41_Madfly_Helmet2","st41_Madfly_Helmet2","st41_Maqui_Helmet","st41_Dragonhaze_Helmet","st41_Echo_Helmet","st41_Echo_Helmet1","st41_Echo_Helmet2","st41_Echo_Helmet3",
+		"st41_Drakon_Helmet","st41_Drakon_Helmet2","st41_Ironback_Helmet","st41_Ironback_Helmet1","st41_Ironback_Helmet2","st41_Flichmon_Helmet","st41_Stormbringer_Helmet","st41_Stormbringer_Helmet2",
+		"st41_Zackyr_Helmet1","st41_Zackyr_Helmet2","st41_Zackyr_Helmet3","st41_Zeta_Helmet1","st41_Zass_Helmet","st41_Zass_Helmet1","st41_Zass_Helmet2","st41_Zev_Helmet","st41_Zev_Helmet4","st41_Zev_Helmet1",
+		"st41_Ranger_Helmet","st41_Ranger_Helmet2","st41_Alkenh_Helmet","st41_Kelmet_Helmet1","st41_Chisco_Helmet","st41_Bit_Helmet2","st41_Careniar_Helmet","st41_Frostmure_Helmet","st41_Sergeant_Helmet",
 		"st41_Corporal_Helmet","st41_Gunner_Helmet","st41_Engineer_Helmet","st41_RTO_Helmet","st41_Heavy_Helmet","st41_Marksman_Helmet","st41_Trooper_Helmet",
-		"st41_CombatMedic_Helmet","st41_Doc_Helmet","st41_Krayt_Cadet","st41_Krayt_Pilot","st41_Krayt_Idiem","KRAYTHelmet_Fives","KRAYTHelmet_Spache",
-		"KRAYTHelmet_Spache1"};
+		"st41_CombatMedic_Helmet","st41_Doc_Helmet","st41_Krayt_Cadet","st41_Krayt_Pilot","st41_Krayt_Idiem","st41_KRAYTHelmet_Fives","st41_KRAYTHelmet_Spache",
+		"st41_KRAYTHelmet_Spache1"};
 		version = "0.0.1";
 		versionAr[] = {0,0,1};
 		versionStr = "0.0.1";
@@ -24,12 +24,12 @@ class CfgPatches {
 	};
 };
 class CfgFactionClasses {
-	class st41_clones_p1 {
+	class st41_skins {
 		displayName = "41st - Skins";
 	};
 };
 class CfgEditorSubcategories {
-	class st41_categ_p1 {
+	class st41_skins_subcategory {
 		displayName = "41st Clones Fase 1"; //if you want to make custom subcategories under your faction like "men" or "vehicles"
 	};
 };
@@ -268,7 +268,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\41stARF.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Rash_Helmet: SWOP_Clonetrooper_ARF_helmet {
+	class st41_Rash_Helmet: SWOP_Clonetrooper_ARF_helmet {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -277,7 +277,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\rash-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Nova_Helmet: SWOP_Clonetrooper_ARF_helmet {
+	class st41_Nova_Helmet: SWOP_Clonetrooper_ARF_helmet {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -286,7 +286,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\nova-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Bit_Helmet: SWOP_Clonetrooper_ARF_helmet {
+	class st41_Bit_Helmet: SWOP_Clonetrooper_ARF_helmet {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -295,7 +295,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\bit-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Rash_Helmet2: SWOP_Clonetrooper_ARF_helmet {
+	class st41_Rash_Helmet2: SWOP_Clonetrooper_ARF_helmet {
 		author = "Zackyr";
 		scope = 2;
 		scopeArsenal = 2;
@@ -306,7 +306,7 @@ class CfgWeapons {
 	};
 	//helmet Lion
 	class SWOP_Clonetrooper_helmet_p1;
-	class Lion_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Lion_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -315,7 +315,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\lion-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Lion_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Lion_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -325,7 +325,7 @@ class CfgWeapons {
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\lion-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
 	//helmet Fives
-	class Fives_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Fives_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -334,7 +334,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\fives-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Fives_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Fives_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -343,7 +343,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\fives-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Fives_Helmet3: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Fives_Helmet3: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -352,7 +352,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\fives-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Spachito_Helmet3: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Spachito_Helmet3: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -361,7 +361,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\spachito-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class NecroLd_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_NecroLd_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -370,7 +370,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\necrold-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class NecroLd_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_NecroLd_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -379,7 +379,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\necrold-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Rex_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Rex_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -388,7 +388,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\rex-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Rex_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Rex_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -397,7 +397,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\rex-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Rex_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Rex_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -406,7 +406,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\rex-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Rex_Helmet3: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Rex_Helmet3: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -415,7 +415,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\rex-helmet4.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Madfly_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Madfly_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -424,7 +424,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\madfly-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Madfly_Helmet3: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Madfly_Helmet3: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -433,7 +433,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\madfly-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Maqui_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Maqui_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -442,7 +442,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\maqui-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Dragonhaze_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Dragonhaze_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -451,7 +451,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\dragon-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Echo_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Echo_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -460,7 +460,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\echo-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Echo_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Echo_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -469,7 +469,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\echo-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Echo_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Echo_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -478,7 +478,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\echo-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Echo_Helmet3: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Echo_Helmet3: SWOP_Clonetrooper_helmet_p1 {
 		author = "Zackyr";
 		scope = 2;
 		scopeArsenal = 2;
@@ -487,7 +487,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\echo-helmet4.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Drakon_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Drakon_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -496,7 +496,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\drakon-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Drakon_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Drakon_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -505,7 +505,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\drakon-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Ironback_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Ironback_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -514,7 +514,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\iron-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Ironback_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Ironback_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -523,7 +523,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\iron-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Ironback_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Ironback_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -532,7 +532,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\iron-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Flichmon_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Flichmon_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -541,7 +541,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\flich-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Stormbringer_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Stormbringer_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -550,7 +550,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\storm-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Stormbringer_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Stormbringer_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -559,7 +559,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\storm-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zackyr_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zackyr_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -568,7 +568,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zackyr-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zackyr_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zackyr_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -577,7 +577,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zackyr-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zackyr_Helmet3: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zackyr_Helmet3: SWOP_Clonetrooper_helmet_p1 {
 		author = "Zackyr";
 		scope = 2;
 		scopeArsenal = 2;
@@ -586,7 +586,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zackyr-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zeta_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zeta_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -595,7 +595,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zeta-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zass_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zass_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -604,7 +604,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zass-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zass_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zass_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -613,7 +613,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zass-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zass_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zass_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -622,7 +622,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zass-helmet3.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zev_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zev_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -631,7 +631,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zev-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zev_Helmet4: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zev_Helmet4: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -640,7 +640,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zass-helmet4.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Zev_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Zev_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -649,7 +649,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\zev-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Ranger_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Ranger_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -658,7 +658,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\ranger-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Ranger_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Ranger_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -667,7 +667,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\ranger-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Alkenh_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Alkenh_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -676,7 +676,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\alkenh-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Kelmet_Helmet1: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Kelmet_Helmet1: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -685,7 +685,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\klemet-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Chisco_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Chisco_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -694,7 +694,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\chisco-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Bit_Helmet2: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Bit_Helmet2: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -703,7 +703,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\bit-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Careniar_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Careniar_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -712,7 +712,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\careniar-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class Frostmure_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_Frostmure_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -722,7 +722,7 @@ class CfgWeapons {
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\frostmure-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
 	//helmet Corporal
-	class st41_Sergeant_Helmet: SWOP_Clonetrooper_helmet_p1 {
+	class st41_st41_Sergeant_Helmet: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -845,7 +845,7 @@ class CfgWeapons {
 	};
 	//Thunder-Platoon Pilot helmet//
 	class SWOP_Clonetrooper_pilot_helmet;
-	class KRAYTHelmet_Fives: SWOP_Clonetrooper_pilot_helmet {
+	class st41_KRAYTHelmet_Fives: SWOP_Clonetrooper_pilot_helmet {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -854,7 +854,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\madfly-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class KRAYTHelmet_Spache: SWOP_Clonetrooper_pilot_helmet {
+	class st41_KRAYTHelmet_Spache: SWOP_Clonetrooper_pilot_helmet {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -863,7 +863,7 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\spachito-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
-	class KRAYTHelmet_Spache1: SWOP_Clonetrooper_pilot_helmet {
+	class st41_KRAYTHelmet_Spache1: SWOP_Clonetrooper_pilot_helmet {
 		author = "Lion";
 		scope = 2;
 		scopeArsenal = 2;
@@ -883,8 +883,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		displayName = "41st Captain Madfly ARC";
-		faction = "st41_clones_p1";
-		editorSubcategory = "st41_categ_p1";
+		faction = "st41_skins";
+		editorSubcategory = "st41_skins_subcategory";
 		backpack = "";
 		uniformClass = "st41_Madfly_Uniform";
 		linkedItems[] = {};
@@ -899,8 +899,8 @@ class CfgVehicles
 //		scopeCurator = 2;
 //		scopeArsenal = 2;
 //		displayName = "41st Lieutenant ARC";
-//		faction = "st41_clones_p1";
-//		editorSubcategory = "st41_categ_p1";
+//		faction = "st41_skins";
+//		editorSubcategory = "st41_skins_subcategory";
 //		backpack = "";
 //		uniformClass = "st41_ARCLTE_Uniform";
 //		linkedItems[] = {};

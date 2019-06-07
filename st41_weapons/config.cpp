@@ -18,7 +18,7 @@ class CfgWeapons
 	class swop_green_lightsaber;
 	class st41_EvanKev_Lightsaber: swop_green_lightsaber
 	{
-		model = "\st41\st41_weapons\st41_saber.p3d"; //TODO
+		model = "\st41\st41_weapons\st41_evan_saber\st41_evan_saber"; //TODO
 		//picture = "\KA_NAP\UI\KA_Officer_Sword.paa"; //TODO
 		author = "Fr4nKy";
 		displayname = "Lightsaber - Evan Kev";

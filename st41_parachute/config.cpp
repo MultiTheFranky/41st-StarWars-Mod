@@ -25,7 +25,7 @@ class CfgVehicles
 		displayName = "Clon Parachute";
 		icon = "iconBackpack";
 		picture = "st41\st41_parachute\data\icon.paa";
-		model = "st41\st41_parachute\st41_backpack_parachute";
+		model = "st41\st41_parachute\st41_parachute";
 		backpackSimulation = "ParachuteSteerable";
 		ParachuteClass = "Steerable_Parachute_F";
 		maximumLoad = 0;
