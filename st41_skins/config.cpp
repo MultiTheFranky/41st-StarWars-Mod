@@ -16,7 +16,7 @@ class CfgPatches {
 		"st41_Ranger_Helmet","st41_Ranger_Helmet2","st41_Alkenh_Helmet","st41_Kelmet_Helmet1","st41_Chisco_Helmet","st41_Bit_Helmet2","st41_Careniar_Helmet","st41_Frostmure_Helmet","st41_Sergeant_Helmet",
 		"st41_Corporal_Helmet","st41_Gunner_Helmet","st41_Engineer_Helmet","st41_RTO_Helmet","st41_Heavy_Helmet","st41_Marksman_Helmet","st41_Trooper_Helmet",
 		"st41_CombatMedic_Helmet","st41_Doc_Helmet","st41_Krayt_Cadet","st41_Krayt_Pilot","st41_Krayt_Idiem","st41_KRAYTHelmet_Fives","st41_KRAYTHelmet_Spache",
-		"st41_KRAYTHelmet_Spache1"};
+		"st41_KRAYTHelmet_Spache1","st41_ARFMedic_Helmet"};
 		version = "0.0.1";
 		versionAr[] = {0,0,1};
 		versionStr = "0.0.1";
@@ -323,6 +323,15 @@ class CfgWeapons {
 		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\lion-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
+	};
+	class st41_ARFMedic_Helmet: SWOP_Clonetrooper_ARF_helmet {
+		author = "Zackyr";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "41st ARF Medic";
+		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
+		subItems[] = {"SWOP_Clones_HUD"};
+		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\41starfmedic.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
 	//helmet Fives
 	class st41_Fives_Helmet: SWOP_Clonetrooper_helmet_p1 {
