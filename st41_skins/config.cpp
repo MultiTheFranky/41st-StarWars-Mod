@@ -16,7 +16,7 @@ class CfgPatches {
 		"st41_Ranger_Helmet","st41_Ranger_Helmet2","st41_Alkenh_Helmet","st41_Kelmet_Helmet1","st41_Chisco_Helmet","st41_Bit_Helmet2","st41_Careniar_Helmet","st41_Frostmure_Helmet","st41_Sergeant_Helmet",
 		"st41_Corporal_Helmet","st41_Gunner_Helmet","st41_Engineer_Helmet","st41_RTO_Helmet","st41_Heavy_Helmet","st41_Marksman_Helmet","st41_Trooper_Helmet",
 		"st41_CombatMedic_Helmet","st41_Doc_Helmet","st41_Krayt_Cadet","st41_Krayt_Pilot","st41_Krayt_Idiem","st41_KRAYTHelmet_Fives","st41_KRAYTHelmet_Spache",
-		"st41_KRAYTHelmet_Spache1","st41_ARFMedic_Helmet"};
+		"st41_KRAYTHelmet_Spache1","st41_ARFMedic_Helmet","st41_Nova_Helmet","st41_Krayt_CorpIdiem","st41_KRAYTHelmet_Spache2","st41_Spache_Vest","st41_Krayt_Captain"};
 		version = "0.0.1";
 		versionAr[] = {0,0,1};
 		versionStr = "0.0.1";
@@ -118,6 +118,16 @@ class CfgWeapons {
 		//picture = "\st41\st41_skins\icons\Ico_armor.paa";
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\armor\vest41eco1.paa","\st41\st41_skins\images\skins\armor\spec1_co.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
+	class st41_Spache_Vest: SWOP_Clonetrooper_41camo1_armor_recon2 {
+		author = "Zackyr";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "41st Lieutenant Space Vest";
+		//picture = "\st41\st41_skins\icons\Ico_armor.paa";
+		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\armor\vest41space2.paa","\st41\st41_skins\images\skins\armor\spec1_co.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
+	};
+
+	//pauldron
 	class SWOP_Clonetrooper_armor_pauldronsARC;
 	class st41_ARC_Vest: SWOP_Clonetrooper_armor_pauldronsARC {
 		author = "Lion";
@@ -303,6 +313,15 @@ class CfgWeapons {
 		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\rash-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
+	};
+	class st41_Nova_Helmet: SWOP_Clonetrooper_ARF_helmet {
+		author = "Zackyr";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "41st CT-S Nova";
+		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
+		subItems[] = {"SWOP_Clones_HUD"};
+		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\nova-helmet.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
 	//helmet Lion
 	class SWOP_Clonetrooper_helmet_p1;
@@ -843,6 +862,15 @@ class CfgWeapons {
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\Krayt-pilot.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
+	class st41_Krayt_Captain: SWOP_Clonetrooper_helmet_p1 {
+		author = "Zackyr";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "41st Krayt Captain";
+		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
+		subItems[] = {"SWOP_Clones_HUD"};
+		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\Krayt-captain.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
+	};
 	class st41_Krayt_Idiem: SWOP_Clonetrooper_helmet_p1 {
 		author = "Lion";
 		scope = 2;
@@ -851,6 +879,15 @@ class CfgWeapons {
 		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\idiem-helmet1.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
+	};
+	class st41_Krayt_CorpIdiem: SWOP_Clonetrooper_helmet_p1 {
+		author = "Zackyr";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "41st Krayt Corporal Idiem";
+		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
+		subItems[] = {"SWOP_Clones_HUD"};
+		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\idiem-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
 	//Thunder-Platoon Pilot helmet//
 	class SWOP_Clonetrooper_pilot_helmet;
@@ -880,6 +917,15 @@ class CfgWeapons {
 		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
 		subItems[] = {"SWOP_Clones_HUD"};
 		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\spachito-helmet2.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
+	};
+	class st41_KRAYTHelmet_Spache2: SWOP_Clonetrooper_pilot_helmet {
+		author = "Zackyr";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "41st Krayt - Lieutenant Space";
+		//picture = "\st41\st41_skins\icons\Ico_helm.paa";
+		subItems[] = {"SWOP_Clones_HUD"};
+		hiddenSelectionsTextures[] = {"\st41\st41_skins\images\skins\helmets\spachito-helmet4.paa"}; //like "\YourAddon\YourFolder\Helmet.paa"
 	};
 };
 class CfgVehicles
